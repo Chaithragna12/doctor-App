@@ -1,7 +1,9 @@
 import axios from "axios";
 import  { useContext, useState } from "react";
 import { toast } from "react-toastify";
-import { Context } from "../../../frontend/src/main";
+// import { Context } from "../../../frontend/src/main";
+import { Context } from "../main";
+
 import { Link, Navigate, useNavigate } from "react-router-dom";
 
 const Register = () => {
